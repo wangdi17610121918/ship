@@ -1,0 +1,922 @@
+.sr-layout-body{overflow:hidden;font-size: 14px;}
+/*头部*/
+.sr-header{background-color:#181818;position:relative;z-index:10;height:50px;}
+.sr-header a:hover{transition:all .5s;-webkit-transition:all .5s;}
+.sr-logo{position:absolute;left:0;top:0;width:260px;height:100%;line-height:50px;color:#fff;font-size:18px;text-indent:135px;background:url(../images/s_logo.png) -25px center no-repeat;background-size:190px auto;}
+.sr-logo_en{position:absolute;left:0;top:0;width:560px;height:100%;line-height:50px;color:#fff;font-size:18px;text-indent:135px;background:url(../images/s_logo_en.png) -25px center no-repeat;background-size:190px auto;}
+.sr-nav{position:relative;padding:0 10px;border-radius:2px;font-size:0;box-sizing:border-box;}
+.sr-nav *{font-size:14px;}
+.sr-nav .sr-nav-item,.sr-nav-left .sr-nav-item,.sr-search{position:relative;display:inline-block;*display:inline;*zoom:1;vertical-align:middle;}
+.sr-nav .sr-nav-item a.sr-navblink,.sr-nav-left .sr-nav-item a.sr-navblink{display:block;color:#fff;padding:0 20px;line-height:50px;transition:all .3s;-webkit-transition:all .3s;}
+.sr-layout-right{position:absolute !important;right:15px;top:0;}
+
+/*左侧边栏*/
+.sr-side{border-top:1px solid #4f4f4f;position:fixed;bottom:0;z-index:999;background:#181818;top:50px;width:260px;}
+.sr-side-scroll{background:#181818;width:260px;height:100%;overflow-x:hidden; font-size: 14px}
+/* side start */
+.side-btn{text-align:center;    transform: translateY(-50%);}
+.side-btn i.fs-side-retra{ font-size:20px;font-weight:700;color:#E06514;display:inline-block;transition:all 0.4s ease;-moz-transition:all 0.4s ease;-webkit-transition:all 0.4s ease;-o-transition:all 0.4s ease;}
+.side-btn i.fs-side-retra:before{color:#E06514;}
+.mar-top-10{margin-top:10px;}
+.sr-search{position:relative;}
+.sr-search input{margin:10px;width:228px;height:44px;line-height:44px;border:1px solid #4F4F4F;background:#181818;font-size:14px;color:#aaa;padding-left:10px;border-radius:2px;}
+.sr-search a{position:absolute;right:26px;top:24px;display:block;width:10px;height:10px;}
+.sr-search i{font-size:18px;opacity:0.5px;color:#fff;}
+.gk-search a{margin-left:10px;display:block;width:220px;height:44px;line-height:44px;padding-left:10px;background:#28282F;color:#fff;transition:all 2s ease;-moz-transition:all 2s ease;-webkit-transition:all 3s ease;-o-transition:all 2s ease;}
+.gk-search a i{color:#fff;display:inline-block;margin-top:-2px;font-size:20px;margin-right:10px;vertical-align:middle;}
+.ul_hx{display:none;margin-left:10px;width:230px;background:#28282F;}
+.sr-nav-tree{margin-left:10px;width:230px;}
+.sr-nav-tree li{position:relative;color:#fff;height:44px;line-height:44px;}
+.sr-nav-tree li .add{position:absolute;color:#aaa;font-size:28px;right:15px;}
+.sr-nav-tree li input{background:#28282F;width:153px;height:34px;line-height:36px;border:1px solid #5C5C5C;margin-left:10px;border-radius:2px;}
+.calc{width:240px;height:44px;text-align:center;}
+.calc a{margin:10px 58px;display:block;font-size:14px;width:155px;height:28px;background:#2e93fe;color:#fff;border-radius:2px;padding-top:8px;box-shadow:inset 0 1px 0 0 rgba(255,255,255,0.21);}
+/* side end */
+/* 模态框 */
+.side-btn{display:block;margin-right:0;width:30px;height:136px;line-height:136px;background:#28282F;position:absolute;right:-30px;top:50%;border-radius:0 4px 4px 0;}
+.icon_down{display:inline-block;margin-left:50px;transition:all 0.3s ease;-moz-transition:all 0.3s ease;-webkit-transition:all 0.5s ease;-o-transition:all 0.3s ease;}
+
+/*右侧主体内容*/
+.sr-body{background:url(../images/map1.jpg) no-repeat;position:absolute;left:0px;right:0;top:50px;bottom:0;z-index:1;width:auto;overflow:hidden;box-sizing:border-box;}
+
+/*放大缩小*/
+.sr-zooming{background:#212121;width:24px;min-height: 500px;height:90%;position:absolute;top:5%;left:300px;z-index:9999}
+.sr-zooming a{background:#000;display:inline-block;color:#fff;font-size:24px;font-family:SimSun;font-weight:700;width:24px;height:24px;text-align:center;line-height:24px;position:absolute;left:0;}
+.sr-zooming a.enlarge{top:0;cursor: pointer;}
+.sr-zooming a.reduce{bottom:0;cursor: pointer;}
+.dieblock{background-color:#fff;border-radius:2px;display:inline-block;width:18px;height:18px;margin-left:-9px;position:absolute;left:50%;top:20%;cursor:pointer;}
+
+/*切换视图*/
+.sr-viewgraph{background:#28282f;width:200px;height:38px;position:absolute;right:18px;top:30px;z-index:9999;}
+.sr-viewgraph li{float:left;width:50%;}
+.sr-viewgraph li a{box-sizing:border-box;border:1px solid transparent;color:#aaa;display:inline-block;width:100%;line-height:36px;text-align:center;}
+.sr-viewgraph li a:hover{color:#fff;}
+.sr-viewgraph li.act a{border-color:#5c5c5c;color:#fff;}
+
+.fs-calendar{color:#fff;font-size:20px;position:absolute;left:8px;top:-2px;}
+
+/*********************************** 修改 ***********************************/
+.pannelMenu{position: fixed;width: 900px;z-index: 100;margin: 10px 300px;}
+.pannelMenu .item{display: inline-block;color: #FFFFFF;padding: 5px 10px;background-color: orange;cursor: pointer;}
+
+
+/*隐藏*/
+.hide{display: none;}
+.fs-checkbox{font-size:14px;color:#fff;display: none;}
+.checked .fs-checkbox{display:inline-block;}
+.checked{background:#3B99FC;}
+.checked_2{background: #212121;line-height: 20px !important;}
+/*字体颜色*/
+.color_orange{color: #FFA900;padding: 0 4px;}
+.color_gray_1{color: #535457;}
+/*文本对齐方式*/
+.text_align_left{text-align: left;padding-left: 5px;}
+.text_align_center{text-align: center;padding-left: 5px;}
+.text_align_right{text-align: right;padding-left: 5px;}
+/*文字超出显示省略号*/
+.ellipsis_line_1{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;vertical-align: bottom;}
+.ellipsis_line_2{display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;overflow: hidden;}
+
+/*下拉框*/
+.select{background: none;width: 200px;height: 32px;border: 1px solid #5c5c5c;border-radius: 2px;color: #FFFFFF;}
+/*按钮*/
+.button{width: 80px;height: 32px;background: #3B99FC;border-radius: 2px;border: 0;color: #FFFFFF;margin-left: 20px;font-size:14px;}
+/*单选按钮*/
+.radio_group .item+.item{margin-left: 10px;}
+.f_radio,.f_radio:hover{color: #FFFFFF;font-size: 16px;text-align: center;vertical-align: middle;}
+.f_radio .fs-circle-select{color: #3B99FC;}
+/*时间选择器*/
+.time{position: relative;display: inline-block;}
+.time .time_input{background: none;width: 120px;height: 30px;border: 1px solid #5c5c5c;border-radius: 2px;color: #FFFFFF;padding-left: 34px;}
+.time .f_time .fs-calendar{font-size: 20px;line-height: 34px;}
+/*复选框*/
+.check_group .item+.item{margin-left: 10px;}
+.f_checkbox{display: inline-block;width: 16px;height: 16px;line-height: 18px;border: 1px solid #5c5c5c;border-radius: 2px;text-align: center;vertical-align: middle;}
+.f_checkbox .fs-checkbox{}
+/*普通文本框*/
+.text_input{background: none;width: 140px;height: 30px;border: 1px solid #5c5c5c;border-radius: 2px;color: #FFFFFF;padding-left: 5px;}
+/*港口，历史记录，搜索，航速计算，船舶*/
+.fs_port,.fs_history,.f_search,.fs_speed_calcu,.f_ship{display: inline-block;font-size: 20px;color: #FFA900;text-align: center;vertical-align: middle;}
+/*上下箭头*/
+.f_up_down{position: relative;display: inline-block;width: 12px;height: 14px;}
+.f_up_down  .up{transform:rotate(180deg) scale(0.6);-ms-transform:rotate(180deg) scale(0.6);-moz-transform:rotate(180deg) scale(0.6);-webkit-transform:rotate(180deg) scale(0.6);-o-transform:rotate(180deg) scale(0.6);position: absolute;top: 0;}
+.f_up_down  .down{transform: scale(0.6);-ms-transform:scale(0.6);-moz-transform:scale(0.6);-webkit-transform:scale(0.6);-o-transform:scale(0.6);position: absolute;top: 8px;}
+.f_up_down  .fs-drop-down{display: inline-block;font-size: 12px;color: #FFFFFF;background-color: #3A3B39;cursor: pointer;}
+
+
+/*模态框*/
+.pannel{min-width: 458px;min-height:266px;opacity: 0.9;background: #212121;box-shadow: 10px 20px 20px 0 rgba(0,0,0,0.50);border-radius: 2px;color: #FFFFFF;z-index: 10000;}
+.pannel .pannel_title{font-size: 16px;border-bottom: 1px solid #383838;padding: 10px;}
+.pannel .pannel_title .name{margin-left: 5px;}
+.pannel .pannel_title .close{position: absolute;right: 10px;top: 12px;color: #FFFFFF;}
+.pannel .pannel_content{padding: 20px 10px;}
+.pannel .pannel_content .row+.row{padding-top: 12px}
+.pannel .pannel_content .row .name{display: inline-block;width: 80px;text-align: right;font-size: 14px;}
+.pannel .pannel_content .row .text{display: inline-block;}
+
+/*表格*/
+.pannel_table{min-height:260px;opacity: 0.85;background: #212121;box-shadow: 10px 20px 20px 0 rgba(0,0,0,0.50);border-radius: 2px;color: #FFFFFF;z-index: 10000;}
+.pannel_table .pannel_title{font-size: 12px;padding: 10px;}
+.pannel_table .pannel_title .name{font-size: 14px;margin-left: 5px;}
+.pannel_table .pannel_title .details{margin:0 10px 0 20px;}
+.pannel_table .pannel_title .export{background: #363636;padding: 4px 10px;border-radius: 2px;cursor: pointer;}
+.pannel_table .pannel_title .check_group{margin-left: 20px;}
+.pannel_table .pannel_title .check_group .item .f_checkbox{margin-right: 5px;}
+.pannel_table .pannel_title .details_2{position: absolute;right: 50px;top: 12px;}
+.pannel_table .pannel_title .details_2 .item+.item{margin-left: 20px;}
+.pannel_table .pannel_title .details_2 .item .text_input{width: 50px;height: 18px;padding-right: 15px;}
+.pannel_table .pannel_title .details_2 .item .f_up_down{margin: 0 4px 0 -18px;}
+
+.pannel_table .pannel_title .close{position: absolute;right: 10px;top: 12px;color: #FFFFFF;}
+.pannel_table .pannel_title .close .fs-close{font-size: 14px;}
+.pannel_table .pannel_content{font-size: 12px;color: #FFFFFF;margin: 0 12px 10px;overflow: auto;scrollbar-track-color:#363636;scrollbar-shadow-color:#3B99FC;scrollbar-face-color:#3B99FC;}
+/*自定义表格（head固定，body左右上下滚动）*/
+/* .pannel_table .pannel_content .headContainer{overflow: hidden;} */
+.pannel_table .pannel_content .headContainer .tableHead{white-space: nowrap;}
+.pannel_table .pannel_content .headContainer .tableHead .item{display: inline-block;width: 100px; height: 32px;background-color: #3c382c;text-align: center;line-height: 32px;border-left: 1px solid #464545;}
+.pannel_table .pannel_content .headContainer .tableHead .item+.item{margin-left: -4px;}
+.pannel_table .pannel_content .headContainer .tableHead .item:nth-last-child(2){border-right: 1px solid #464545;}
+.pannel_table .pannel_content .tableBody{height:172px;}/**overflow: auto; scrollbar-track-color:#363636;scrollbar-shadow-color:#3B99FC;scrollbar-face-color:#3B99FC;滚动条调整**/
+.pannel_table .pannel_content .tableBody .tableRow{white-space: nowrap;}
+.pannel_table .pannel_content .tableBody .tableRow .item{display: inline-block;width: 100px; height: 32px;text-align: center;line-height: 32px;border-left: 1px solid #464545;border-bottom: 1px solid #464545; }/****/
+.pannel_table .pannel_content .tableBody .tableRow .item::before{content: ".";visibility: hidden;}
+.pannel_table .pannel_content .tableBody .item+.item{margin-left: -4px;}
+.pannel_table .pannel_content .tableBody .item:last-child{border-right: 1px solid #464545;}
+    /* titile宽度 */
+.pannel_3 .pannel_content .headContainer .tableHead .item:nth-child(1){width:3%}
+.pannel_3 .pannel_content .headContainer .tableHead .item:nth-child(2){width:10%}
+.pannel_3 .pannel_content .headContainer .tableHead .item:nth-child(3){width:7%}
+.pannel_3 .pannel_content .headContainer .tableHead .item:nth-child(4){width:7%}
+.pannel_3 .pannel_content .headContainer .tableHead .item:nth-child(5){width:7%}
+.pannel_3 .pannel_content .headContainer .tableHead .item:nth-child(6){width:7%}
+.pannel_3 .pannel_content .headContainer .tableHead .item:nth-child(7){width:10%}
+.pannel_3 .pannel_content .headContainer .tableHead .item:nth-child(8){width:10%}
+.pannel_3 .pannel_content .headContainer .tableHead .item:nth-child(9){width:10%}
+.pannel_3 .pannel_content .headContainer .tableHead .item:nth-child(10){width:10%}
+.pannel_3 .pannel_content .headContainer .tableHead .item:nth-child(11){width:13%}
+.pannel_3 .pannel_content .headContainer .tableHead .item:nth-child(12){width:10%}
+.pannel_3 .pannel_content .headContainer .tableHead .item:nth-child(13){width:10%}
+.pannel_3 .pannel_content .headContainer .tableHead .item:nth-child(14){width:13%}
+    /* tbody宽度 */
+.pannel_3 .pannel_content .tableBody .tableRow .item:nth-child(1){width:3%}
+.pannel_3 .pannel_content .tableBody .tableRow .item:nth-child(2){width:10%}
+.pannel_3 .pannel_content .tableBody .tableRow .item:nth-child(3){width:7%}
+.pannel_3 .pannel_content .tableBody .tableRow .item:nth-child(4){width:7%}
+.pannel_3 .pannel_content .tableBody .tableRow .item:nth-child(5){width:7%}
+.pannel_3 .pannel_content .tableBody .tableRow .item:nth-child(6){width:7%}
+.pannel_3 .pannel_content .tableBody .tableRow .item:nth-child(7){width:10%}
+.pannel_3 .pannel_content .tableBody .tableRow .item:nth-child(8){width:10%}
+.pannel_3 .pannel_content .tableBody .tableRow .item:nth-child(9){width:10%}
+.pannel_3 .pannel_content .tableBody .tableRow .item:nth-child(10){width:10%}
+.pannel_3 .pannel_content .tableBody .tableRow .item:nth-child(11){width:13%}
+.pannel_3 .pannel_content .tableBody .tableRow .item:nth-child(12){width:10%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap; vertical-align: bottom;}
+.pannel_3 .pannel_content .tableBody .tableRow .item:nth-child(13){width:10%}
+.pannel_3 .pannel_content .tableBody .tableRow .item:nth-child(14){width:13%}
+
+ /*表格滚动条样式-headContainer*/
+/* .pannel_table .pannel_content .headContainer::-webkit-scrollbar{width: 0;height: 0;} */
+.pannel_table .pannel_content::-webkit-scrollbar{width: 6px;height: 6px;background-color: #363636;border-radius: 3px;}
+.pannel_table .pannel_content::-webkit-scrollbar-thumb{background-color: #3B99FC;border-radius: 3px;}
+.pannel_table .pannel_content::-webkit-scrollbar-corner{display: none;}
+/*表格滚动条样式-tableBody*/
+/* .pannel_table .pannel_content .tableBody::-webkit-scrollbar{width: 6px;height: 6px;background-color: #363636;border-radius: 3px;}
+.pannel_table .pannel_content .tableBody::-webkit-scrollbar-thumb{background-color: #3B99FC;border-radius: 3px;}
+.pannel_table .pannel_content .tableBody::-webkit-scrollbar-corner{display: none;}
+
+.ship_pannel_three .pannel_content::-webkit-scrollbar{width: 6px;height: 6px;background-color: #363636;border-radius: 3px;}
+.ship_pannel_three .pannel_content::-webkit-scrollbar-thumb{background-color: #3B99FC;border-radius: 3px;}
+.ship_pannel_three .pannel_content::-webkit-scrollbar-corner{display: none;}
+
+.pannel_table_2 *::-webkit-scrollbar{width: 6px;height: 6px;background-color: #363636;border-radius: 3px;}
+.pannel_table_2 *::-webkit-scrollbar-thumb{background-color: #3B99FC;border-radius: 3px;}
+.pannel_table_2 *::-webkit-scrollbar-corner{display: none;} */
+
+
+/*表格里的文本框*/
+.pannel_table .pannel_content .tableBody .time_input{border: 0;width: 130px;}
+.pannel_table .pannel_content .tableBody .text_input{border: 0;width: 150px;margin-right: 10px;}
+.pannel_table .pannel_content .tableBody .f_pen{font-size: 16px;color: #FFA900;float: right;padding: 7px 10px 5px;}
+/*操作*/
+.pannel_table .operate{padding: 0 12px;font-size: 12px;}
+.pannel_table .operate .calculate{background: #3B99FC;border-radius: 2px;padding: 5px 20px;font-size: 12px;margin-right: 15px;cursor: pointer;}
+.pannel_table .operate .item{margin: 0 15px;cursor: pointer;}	
+.pannel_table .operate .item:hover{color: #3581D2;text-decoration: underline;}
+/*底部信息*/
+.pannel_table .pannel_table_footer{padding: 15px 12px;font-size: 12px;}
+.pannel_table .pannel_table_footer .right_message{position: absolute;right: 25px;}
+
+
+
+/*模态框（两列）*/
+.ship_pannel_two{min-width: 460px;min-height:481px;opacity: 0.85;background: #212121;box-shadow: 10px 20px 20px 0 rgba(0,0,0,0.50);border-radius: 2px;color: #FFFFFF;z-index: 10000;}
+.ship_pannel_two .pannel_title{font-size: 16px;border-bottom: 1px solid #383838;padding: 10px;}
+.ship_pannel_two .pannel_title .name{margin-left: 5px;}
+.ship_pannel_two .pannel_title .img_container{position: relative;display: inline-block;}
+.ship_pannel_two .pannel_title .img_container .img_btn{margin: 0 18px;cursor: pointer;}
+.ship_pannel_two .pannel_title .img_container .btn_name{white-space:nowrap;display: none;position: absolute;top: 25px;font-size: 12px;color: #DEDEDE;padding: 2px 4px; border:1px solid #858585;transform: scale(0.88);-ms-transform:scale(0.88);-moz-transform:scale(0.88);-webkit-transform:scale(0.88);-o-transform:scale(0.88);}
+.ship_pannel_two .pannel_title .img_container:hover .btn_name{display: block;}
+.ship_pannel_two .pannel_title .close{position: absolute;right: 10px;top: 12px;color: #FFFFFF;}
+.ship_pannel_two .pannel_title .close .fs-close{font-size: 12px;}
+.ship_pannel_two .column_container{padding: 10px 20px;}
+.ship_pannel_two .column_container+.column_container{border-top: 1px solid #383838;}
+.ship_pannel_two .column_container .column_two{font-size: 14px;line-height: 25px;}
+.ship_pannel_two .column_container .column_two .name{display: inline-block;width: 90px;height: 25px;text-align: right;color: #989898;}
+.ship_pannel_two .column_container .column_two .text{display: inline-block;width: 134px;height: 25px;}
+.ship_pannel_two .column_container .column_two .text:before{content: ".";visibility: hidden;}
+.ship_pannel_two .column_container .column_two .text .flag{width: 24px;height: 12px;margin-left: 6px;}
+.ship_pannel_two .column_container .column_two .time_range{display: inline-block;width: 350px;height: 25px;}
+.ship_pannel_two .operate{margin: 15px 0;text-align: center;}
+.ship_pannel_two .operate .item{display: inline-block;width: 74px;height: 30px;line-height: 30px;text-align: center;background-color: #254467;font-size: 14px;border-radius: 2px;cursor: pointer;}
+.ship_pannel_two .operate .item+.item{margin-left: 10px;}
+.ship_pannel_two .tips{font-size: 10px;color: #595A5E;padding-bottom: 10px;transform: scale(0.9);-ms-transform:scale(0.9);-moz-transform:scale(0.9);-webkit-transform:scale(0.9);-o-transform:scale(0.9);}
+
+/*模态框（三列）*/
+.ship_pannel_three{min-width: 468px;min-height:481px;opacity: 0.85;background: #212121;box-shadow: 10px 20px 20px 0 rgba(0,0,0,0.50);border-radius: 2px;color: #FFFFFF;z-index: 10000;}
+.ship_pannel_three .pannel_title{font-size: 16px;border-bottom: 1px solid #383838;padding: 10px;}
+.ship_pannel_three .pannel_title .name{margin-left: 5px;}
+.ship_pannel_three .pannel_title .close{position: absolute;right: 10px;top: 12px;color: #FFFFFF;}
+.ship_pannel_three .pannel_title .close .fs-close{font-size: 12px;}
+.ship_pannel_three .pannel_content{height: 450px;overflow-y: auto;}
+
+.ship_pannel_three .column_container{padding: 10px 0;}
+.ship_pannel_three .column_container+.column_container{border-top: 1px solid #383838;}
+.ship_pannel_three .column_container .sub_title{font-size: 15px;padding-left: 10px;}
+
+.ship_pannel_three .column_container .column_three{font-size: 14px;line-height: 25px;}
+.ship_pannel_three .column_container .column_three .name{display: inline-block;width: 110px;height: 25px;text-align: right;color: #989898;}
+.ship_pannel_three .column_container .column_three .text{display: inline-block;width: 120px;height: 25px;}
+.ship_pannel_three .column_container .column_three .text2{width: 250px;}
+.ship_pannel_three .column_container .column_three .text3{width: 500px;}
+.ship_pannel_three .column_container .column_three .text:before{content: ".";visibility: hidden;}
+
+
+
+.pannel_1{position: absolute;top: 60px;left: 120px;}
+.pannel_2{position: absolute;top: 60px;left: 120px;}
+
+.pannel_3 {position: absolute;top: auto;bottom:22px;left: 119px;width: calc(100% - 395px);height: 248px; }
+
+.pannel_4{position: absolute;top: auto;bottom: 22px;left: 119px;width: calc(100% - 395px);}
+
+.pannel_5{position: absolute;top: 10px;left: 120px;width: 934px;height: 248px;}
+.pannel_5 .tableRowOne .item:nth-child(2){overflow: hidden;text-overflow: ellipsis;white-space: nowrap;vertical-align: bottom;}
+
+.pannel_6{position: absolute;top: auto;bottom: 22px;left: 119px;width: calc(100% - 395px);min-width:800px;height: 248px;}
+/*.pannel_6 .content {height: 195px;overflow-y: auto;}*/
+.pannel_7{position: absolute;top: auto;bottom: 22px;left: 119px;width: calc(100% - 395px);min-width:800px;height: 248px;}
+/*.pannel_7 .content {height: 195px;overflow-y: auto;}*/
+.pannel_8{position: absolute;top: auto;bottom: 22px;left: 119px;width: calc(100% - 395px);min-width:800px;height: 248px;}
+
+
+
+
+
+.pannel_9{position: absolute}
+
+.pannel_11{position: absolute;top: 70px;right: 18px;width: 740px;}
+
+.pannel_20{position: absolute;top: 70px;left: 119px;}
+.pannel_21{position: absolute;top: 70px;left: 500px;width:431px;height: 301px;}
+
+/* 菜单 */
+.gk-search .icon_down{float: right;margin-top: 12px;}
+.reverse_180{transform:rotate(180deg);}
+.bg_color_1{background-color: #34F533;}
+.bg_color_2{background-color: #1D64FF;}
+.bg_color_3{background-color: #FDF100;}
+.bg_color_4{background-color: #FC7116;}
+.bg_color_5{background-color: #FF51F9;}
+.bg_color_6{background-color: #FF1616;}
+
+
+.bg_color_11{background:url(../../../static/images/ship/keyi.png) no-repeat;}
+.bg_color_12{background:url(../../../static/images/ship/gongji.png) no-repeat;}
+.bg_color_13{background:url(../../../static/images/ship/dengchuan.png) no-repeat;}
+.bg_color_14{background:url(../../../static/images/ship/jiaohuo.png) no-repeat;}
+.bg_color_15{background:url(../../../static/images/ship/beidao.png) no-repeat;}
+.bg_color_16{background:url(../../../static/images/ship/jiechi.png) no-repeat;}
+.bg_color_17{background:url(../../../static/images/ship/junyan.png) no-repeat;}
+
+.bg_color_21{background-color: #90B93C;}
+.bg_color_22{background-color: #3CB98F;}
+.bg_color_23{background-color: #2C75E2;}
+.bg_color_24{background-color: #26BE48;}
+
+/* 台风 */
+.tf_form{margin-left: 10px;width: 220px;background: #28282F;color: #FFFFFF;padding-left: 10px;padding-bottom: 10px;display: none;}
+.tf_form .tf_row+.tf_row{margin-top: 10px;}
+.tf_form .radio_group{font-size: 12px;}
+.tf_form .tf_time .time .time_input{width: 70px;height: 24px;padding-left: 25px;font-size: 12px;}
+.tf_form .tf_time .time .f_time .fs-calendar{left: 4px;top: -4px;font-size: 16px;}
+.tf_form .legend .item{display: inline-block;font-size: 12px;min-width: 65px;line-height: 20px;}
+.tf_form .legend .item .solid_circle{display: inline-block;border-radius: 50%;width:9px;height: 9px;margin-right: 4px;}
+.tf_form .tf_search{width:82px;height: 22px;background-color: #3B99FC; border-radius: 2px;margin:0 auto;text-align: center;line-height: 22px;}
+/* 台风查询结果 */
+.pannel_table_2{min-width: 330px;min-height:181px;opacity: 0.85;background: #212121;box-shadow: 10px 20px 20px 0 rgba(0,0,0,0.50);border-radius: 2px;color: #FFFFFF;z-index: 10000;}
+.pannel_table_2 .pannel_title{font-size: 16px;padding: 10px;}
+.pannel_table_2 .pannel_title .name{font-size: 16px;margin-left: 4px;}
+.pannel_table_2 .pannel_title .close{position: absolute;right: 10px;top: 12px;color: #FFFFFF;}
+.pannel_table_2 .pannel_title .close .fs-close{font-size: 14px;}
+.pannel_table_2 .table_container{margin: 0 10px;height: 124px;overflow-y: auto;}
+.pannel_table_2 .table_container table{width:100%;  border-collapse: collapse;}
+.pannel_table_2 .table_container table .tabel_title,.tabel_cell{border:1px solid #5C5C5C;text-align: center;height: 40px;}
+.pannel_table_2 .table_container table tr:hover{background-color: rgba(255,255,255,0.2);}
+.pannel_table_2 .table_container .can_click{text-decoration: underline;cursor: pointer;}
+
+
+/*模态框（三列）*/
+.ship_pannel_three{min-width: 468px;min-height:481px;opacity: 0.85;background: #212121;box-shadow: 10px 20px 20px 0 rgba(0,0,0,0.50);border-radius: 2px;color: #FFFFFF;z-index: 10000;}
+.ship_pannel_three .pannel_title{font-size: 16px;border-bottom: 1px solid #383838;padding: 10px;}
+.ship_pannel_three .pannel_title .name{margin-left: 5px;}
+.ship_pannel_three .pannel_title .close{position: absolute;right: 10px;top: 12px;color: #FFFFFF;}
+.ship_pannel_three .pannel_title .close .fs-close{font-size: 12px;}
+.ship_pannel_three .pannel_content{height: 450px;overflow-y: auto;}
+
+.ship_pannel_three .column_container{padding: 10px 0;}
+.ship_pannel_three .column_container+.column_container{border-top: 1px solid #383838;}
+.ship_pannel_three .column_container .sub_title{font-size: 15px;padding-left: 10px;}
+
+.ship_pannel_three .column_container .column_three{font-size: 14px;line-height: 25px;}
+.ship_pannel_three .column_container .column_three .name{display: inline-block;width: 110px;height: 25px;text-align: right;color: #989898;}
+.ship_pannel_three .column_container .column_three .text{display: inline-block;width: 120px;height: 25px;}
+.ship_pannel_three .column_container .column_three .text2{width: 240px;}
+.ship_pannel_three .column_container .column_three .text3{width: 500px;}
+.ship_pannel_three .column_container .column_three .text:before{content: ".";visibility: hidden;}
+
+
+/* 气象海况 */
+.qx_form{margin-left: 10px;width: 220px;background: #28282F;color: #FFFFFF;padding-left: 10px;padding-bottom: 10px;font-size: 12px;display: none;}
+.qx_form .check_group{position: relative;}
+.qx_form .check_group .f_checkbox{width:15px;height: 15px;line-height: 20px;}
+.qx_form .check_group .item+.item{margin-left: 5px;}
+.qx_form .f_question{position: absolute;font-size: 17px;color: #FFFFFF;display: inline-block;text-align: center;vertical-align: middle;margin-left: 14px;}
+.qx_form .time{font-size: 14px;padding-top: 10px;}
+.qx_form .time_choose{position: relative;}
+.qx_form .time_choose .time_progress{display: inline-block;width:180px;height: 6px;border-radius: 3px;background-color: #757272;position: relative;}
+.qx_form .time_choose .time_progress .have_cover{width:0px;height: 6px;background-color: #3B99FC;border-radius: 3px;}
+.qx_form .time_choose .time_progress .sign{position: absolute;width:10px;height: 10px;background-color: #FFFFFF;border-radius: 50%;margin-top: -8px;margin-left: -5px;}
+.qx_form .time_choose .time_operate{position: absolute;display: inline-block;margin-top: 2px;margin-left: 5px;}
+.qx_form .time_choose .time_operate .f_pre,.f_next{font-size: 12px;color: #D8D8D8;}
+.qx_form .time_choose .time_operate .f_next{margin-left: 4px;}
+
+
+/* 风力风向示意图 */
+.pannel_wind{width: 316px;height:349px;background: rgba(33,33,33,0.85);box-shadow: 10px 20px 20px 0 rgba(0,0,0,0.50);border-radius: 2px;color: #E3E3E3;z-index: 10000;}
+.pannel_wind .one_legend{}
+.pannel_wind .one_legend .legend_title{font-size: 14px;padding: 10px 10px 5px;}
+.pannel_wind .one_legend .legend_title .name{margin-left: 4px;}
+.pannel_wind .one_legend .legend_title .close{position: absolute;right: 10px;top: 4px;color: #FFFFFF;font-size: 12px;}
+
+.pannel_wind .one_legend .legend_info{text-align: center;}
+/* 风力风向示意图 */
+.pannel_wind .one_legend .legend_info .wind_item{display: inline-block;text-align: center;position: relative;margin-left: 14px;}
+.pannel_wind .one_legend .legend_info .wind_item .wind_img{height: 35px;}
+.pannel_wind .one_legend .legend_info .wind_item .wind_grade{font-size: 12px;}
+.pannel_wind .one_legend .legend_info .wind_item .wind_grade_calc{position: absolute;font-size: 12px;margin-top: -14px;margin-left: -4px;transform: scale(0.9);}
+/* 风力等级和风速对照 */
+.pannel_wind .one_legend .legend_info .grade_speed_legend{font-size: 12px;margin-left: 8px;}
+.pannel_wind .one_legend .legend_info .grade_speed_legend span{min-width: 17px;display: inline-block;text-align: center;}
+.pannel_wind .one_legend .legend_info .scale_1{margin-left:16px;}
+/* 海浪高度色谱图 */
+.pannel_wind .one_legend .legend_info .wave_height_color_legend{font-size: 12px;margin-left: 2px;}
+.pannel_wind .one_legend .legend_info .wave_height_color_legend span{min-width: 32px;display: inline-block;text-align: center;}
+.pannel_wind .one_legend .legend_info .scale_2{margin-left:16px;}
+/* 海流速度示意图 */
+.pannel_wind .one_legend .legend_info .seawater_item{display: inline-block;text-align: center;}
+.pannel_wind .one_legend .legend_info .seawater_item+.seawater_item{margin-left:36px;}
+.pannel_wind .one_legend .legend_info .seawater_item .seawater_img{height: 35px;}
+.pannel_wind .one_legend .legend_info .seawater_item .seawater_grade{font-size: 12px;}
+
+
+/* 海盗军演 */
+.hd_form{margin-left: 10px;width: 220px;background: #28282F;color: #FFFFFF;padding-left: 10px;padding-bottom: 10px;font-size: 12px;display: none;}
+.hd_form .hd_row+.hd_row{margin-top: 10px;}
+.hd_form .select{width:170px;height: 20px;}
+.hd_form .f_checkbox{width:15px;height: 15px;line-height: 20px;}
+.hd_form .f_ship_icon i{width:20px;height: 20px;display: inline-block; vertical-align: middle; text-indent:-999999px;}
+.hd_form .hd_row .item{display: inline-block;width: 48%;}
+.hd_form .hd_search{width:80px;height: 20px;background-color: #3B99FC; border-radius: 2px;margin:0 auto;text-align: center;line-height: 20px;cursor: pointer;}
+
+
+/* 气象信息 */
+.pannel_weather{width: 461px;min-height:200px;background: rgba(33,33,33,0.85);box-shadow: 10px 20px 20px 0 rgba(0,0,0,0.50);border-radius: 2px;color: #E3E3E3;z-index: 10000; font-size: 14px}
+.pannel_weather .pannel_title{font-size: 16px;padding: 10px 10px 0 10px;position: relative;border-bottom: 1px solid #383838;}
+.pannel_weather .pannel_title .tab_item{display: inline-block;margin-right: 15px;cursor: pointer;}
+.pannel_weather .pannel_title .active{border-bottom: 2px solid #3B99FC;}
+.pannel_weather .pannel_title .time_zone{position: absolute;display: inline-block;right: 40px;}
+.pannel_weather .pannel_title .close{position: absolute;right: 10px;top: 6px;color: #FFFFFF;font-size: 12px;}
+.pannel_weather .pannel_content{padding: 10px;}
+.pannel_weather .pannel_content .high_low{}
+.pannel_weather .pannel_content .high_low .item{width:49%;display: inline-block;}
+.pannel_weather .pannel_content .weather_info{padding-top: 10px;}
+.pannel_weather .pannel_content .weather_info .weather_top{color: #84C0FF;}
+.pannel_weather .pannel_content .weather_info .weather_body{padding-top: 5px;}
+.pannel_weather .pannel_content .weather_info .weather_body .img{float: left;margin-right: 10px;}
+.pannel_weather .pannel_content .weather_info .weather_body .img img{width: 66px;height: 61px;}
+.pannel_weather .pannel_content .weather_info .weather_body .info{float: left;}
+.pannel_weather .pannel_content .weather_info .weather_body .info .item{float: left;width: 90px;}
+.pannel_weather .pannel_content .weather_info .weather_body .info .item1{width: 140px;}
+.pannel_weather .pannel_content .weather_info .weather_body .info .item2{width: 130px;}
+.pannel_weather .pannel_content .weather_info .weather_body .info label{color: #949494;width: 42px;display: inline-block;text-align: right;}
+
+/* 通知信息 */
+.pannel_notice{width: calc(100% - 450px);height:32px;background: rgba(33,33,33,0.85);box-shadow: 10px 20px 20px 0 rgba(0,0,0,0.50);border-radius: 2px;color: #FFFFFF;z-index: 10000;}
+.pannel_notice ._left{float: left;line-height: 32px;margin:0 20px;}
+.pannel_notice ._right{float: left;line-height: 32px;width:calc(100% - 97px);height: 32px;overflow: hidden;}
+/* 通知信息 */
+/* .pannel_notice{width: 780px;height:38px;background: rgba(33,33,33,0.85);box-shadow: 5px 5px 10px 0 rgba(0,0,0,0.50);border-radius: 2px;color: #FFFFFF;z-index: 10000;}
+.pannel_notice ._left{float: left;line-height: 38px;margin:0 20px;}
+.pannel_notice ._right{float: left;line-height: 38px;width:652px;height: 38px;overflow: hidden;} */
+.pannel_notice ._close{float: right;line-height: 38px;margin-right:10px;margin-top:-5px; }
+.pannel_notice ._close .fs-close{ color:#fff; font-size:14px; font-weight:bold; vertical-align:middle;cursor: pointer;}
+/* 港口信息 */
+.pannel_port{width: 300px;height:76px;background: rgba(33,33,33,0.85);box-shadow: 10px 20px 20px 0 rgba(0,0,0,0.50);border-radius: 2px;color: #FFFFFF;z-index: 10000;}
+.pannel_port .pannel_title{padding: 10px 15px;}
+.pannel_port .pannel_title .name{font-size: 16px;}
+.pannel_port .pannel_title .close{position: absolute;right: 10px;top: 6px;color: #FFFFFF;font-size: 12px;}
+.pannel_port .pannel_title .sign_img{position: absolute;right: 40px;top: 20px;cursor: pointer;}
+.pannel_port .weather_info{padding: 0 0 10px 15px;}
+.pannel_port .weather_info .port_icon i{width: 18px;height: 18px;line-height: 18px;border-radius: 50%;font-size: 12px;color: #FFFFFF;display: inline-block;text-align: center;vertical-align: middle;margin-left: 10px;}
+.pannel_port .port_info{padding: 10px 15px;border-top: 1px solid #383838;}
+.pannel_port .port_info .item{display: inline-block;}
+.pannel_port .port_info .item+.item{margin-left: 10px;}
+.pannel_port .port_info .item .port_icon i{width: 18px;height: 18px;line-height: 18px;border-radius: 50%;font-size: 12px;color: #FFFFFF;display: inline-block;text-align: center;vertical-align: middle;}
+
+
+/* 港口天气 */
+.pannel_port_weather{width: 529px;min-height:310px;background: rgba(33,33,33,0.85);box-shadow: 10px 20px 20px 0 rgba(0,0,0,0.50);border-radius: 2px;color: #FFFFFF;z-index: 10000;}
+.pannel_port_weather .pannel_title{padding: 10px 15px;border-bottom: 1px solid #383838;}
+.pannel_port_weather .pannel_title .name{font-size: 16px;}
+.pannel_port_weather .pannel_title .close{position: absolute;right: 10px;top: 6px;color: #FFFFFF;font-size: 12px;}
+.pannel_port_weather .pannel_content{padding: 10px 15px;}
+.pannel_port_weather .pannel_content ._left{float: left;width:25%;}
+.pannel_port_weather .pannel_content ._left ._top{line-height: 36px;}
+.pannel_port_weather .pannel_content ._left ._one{line-height: 22px;font-size: 12px;}
+
+.pannel_port_weather .pannel_content ._right{float: right;width:75%;}
+.pannel_port_weather .pannel_content ._right .item{float: left;font-size: 12px;width:33%;}
+.pannel_port_weather .pannel_content ._right .item ._day{line-height: 36px;padding-left: 20px;}
+.pannel_port_weather .pannel_content ._right .item .weather_img img{width:65px;height: 60px;margin-bottom: 6px;}
+.pannel_port_weather .pannel_content ._right .item ._one{line-height: 22px;}
+
+/* 历史航速 */
+.pannel_4 .pannel_title .history_speed{cursor: pointer;}
+.pannel_table_3{min-width: 330px;min-height:181px;opacity: 0.85;background: #212121;box-shadow: 10px 20px 20px 0 rgba(0,0,0,0.50);border-radius: 2px;color: #FFFFFF;z-index: 10000;}
+.pannel_table_3 .pannel_title{font-size: 16px;padding: 10px 15px;border-bottom: 1px solid #383A3D;margin-bottom: 20px;}
+.pannel_table_3 .pannel_title .name{font-size: 16px;}
+.pannel_table_3 .pannel_title .close{position: absolute;right: 14px;top: 12px;color: #FFFFFF;}
+.pannel_table_3 .pannel_title .close .fs-close{font-size: 14px;}
+.pannel_table_3 .table_container{margin: 0 15px;height: 109px;overflow-y: auto;}
+.pannel_table_3 .table_container table{width:100%; border-collapse: collapse;}
+.pannel_table_3 .table_container table .tabel_title,.tabel_cell{border:1px solid #383A3D;text-align: center;height: 35px;}
+.pannel_table_3 .table_container table .tabel_cell .arrow_link{margin: 0 10px;}
+.pannel_table_3 .table_container table tr:hover{background-color: rgba(255,255,255,0.2);}
+.pannel_table_3 .bottom_info{margin: 10px 15px;color: #FFA900;}
+
+
+/* 窗口 */
+.dialog-min-zoomList {
+    position:absolute; bottom: 22px;left: 70px;width:100%
+}
+.dialog-min-zoomList li {
+    background-color:#fff;font-size:12px;line-height:28px;padding:0 3px;border: 1px solid #333;color:#555;display:inline-block;margin-right:8px;
+}
+.pannel .pannel_title .dialog-minZoom{
+    position: absolute;
+    right: 40px;
+    font-size: 20px;
+    top: 4px;
+}
+.flex-tabel .tableHead .item,.flex-tabel .tableRow .item{
+    width: 7%!important;
+}
+.flex-tabel .tableHead .item:nth-child(1),.flex-tabel .tableRow .item:nth-child(1){
+width: 5%!important;
+}
+.flex-tabel .tableHead .item:nth-child(2),.flex-tabel .tableRow .item:nth-child(2){
+    width: 21%!important;
+}
+.flex-tabel .tableHead .item:nth-child(7),.flex-tabel .tableRow .item:nth-child(7){
+    width: 15%!important;
+}
+.flex-tabel .tableHead .item:nth-child(8),.flex-tabel .tableRow .item:nth-child(8){
+    width: 15%!important;
+}
+
+.flex-tabel .tableHead .item:nth-child(9),.flex-tabel .tableRow .item:nth-child(9){
+    width: 17%!important;
+}
+/* 预计到港tabel */
+.portTable1 .pannel_content .tableHead .item,.portTable1 .pannel_content .tableBody .item{width:8%!important;}
+.portTable1 .pannel_content .tableHead .item:nth-child(1),.portTable1 .pannel_content .tableBody .item:nth-child(1){width:5%!important;}
+.portTable1 .pannel_content .tableHead .item:nth-child(2),.portTable1 .pannel_content .tableBody .item:nth-child(2){width:12%!important;}
+.portTable1 .pannel_content .tableHead .item:nth-child(10),.portTable1 .pannel_content .tableBody .item:nth-child(10){width:14%!important;}
+.portTable1 .pannel_content .tableHead .item:nth-child(12),.portTable1 .pannel_content .tableBody .item:nth-child(12){width:14%!important;}
+/* 当前到港tabel */
+.portTable .pannel_content .tableHead .item,.portTable .pannel_content .tableBody .item{width:9%!important;}
+.portTable .pannel_content .tableHead .item:nth-child(1),.portTable .pannel_content .tableBody .item:nth-child(1){width:5%!important;}
+.portTable .pannel_content .tableHead .item:nth-child(10),.portTable .pannel_content .tableBody .item:nth-child(10){width:14%!important;}
+.portTable .pannel_content .tableHead .item:nth-child(11),.portTable .pannel_content .tableBody .item:nth-child(11){width:10%!important;}
+/* 历史到港tabel */
+.portTable2 .pannel_content .tableHead .item,.portTable2 .pannel_content .tableBody .item{width:9%!important;}
+.portTable2 .pannel_content .tableHead .item:nth-child(1),.portTable2 .pannel_content .tableBody .item:nth-child(1){width:5%!important;}
+.portTable2 .pannel_content .tableHead .item:nth-child(11),.portTable2 .pannel_content .tableBody .item:nth-child(11){width:14%!important;}
+.portTable2 .pannel_content .tableHead .item:nth-child(12),.portTable2 .pannel_content .tableBody .item:nth-child(12){width:14%!important;}
+
+/* 在港记录 */
+
+.portTable3 .pannel_content .tableHead .item,.portTable3 .pannel_content .tableBody .item{width:12%!important;}
+.portTable3 .pannel_content .tableHead .item:nth-child(1),.portTable3 .pannel_content .tableBody .item:nth-child(1){width:5%!important;}
+.portTable3 .pannel_content .tableHead .item:nth-child(2),.portTable3 .pannel_content .tableBody .item:nth-child(2){width:15%!important;}
+.portTable3 .pannel_content .tableHead .item:nth-child(3),.portTable3 .pannel_content .tableBody .item:nth-child(3){width:20%!important;}
+
+/* .tableBody2O{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;} */
+
+
+.mar-bottom-10{
+    margin-bottom: 10px;
+}
+
+/*我的船队*/
+.my-ships-close{position: absolute;top: 5px;right:8px;}
+.my-ships-wrap{padding: 0px 10px 5px 0px;width: 74%;min-width: 330px;min-height:145px;opacity: 0.85;box-shadow: 10px 20px 20px 0 rgba(0,0,0,0.50);border-radius: 3px;color: #FFFFFF;z-index: 1000;position: absolute;left: 8%;top:55%;padding-bottom: 5px;}
+.my-ships-header{font-size: 14px;padding: 10px;}
+.my-ships-content{max-height: 190px;overflow-y: auto;}
+.my-ships-content::-webkit-scrollbar{width: 7px;height: 7px;background-color: #40403D;}
+.my-ships-content::-webkit-scrollbar-thumb{background-color: #3794EF;}
+.my-ships-content table{width: 110%;}
+.my-ships-content td,.my-ships-content th{border: 1px solid #5C5C5C;text-align: center;line-height: 30px;min-width: 100px;width: 15%;}
+.my-ships-unfollow{font-weight: 700;}
+.my-ships-content td{
+    white-space:nowrap;
+}
+.my-ships-content tbody tr:hover{
+    background-color: #3794EF;
+}
+.flexLeft{
+    background: #212121;
+    position: absolute;
+    z-index: 888888;
+    top: 47px;
+    width: 100px;
+    height: 185px;
+    overflow: hidden;
+}
+#left_div2 th,#left_div2 td{
+    border: 1px solid #5C5C5C;text-align: center;line-height: 30px;min-width: 100px;;
+}
+.my-ships-content tbody .my-ships-unfollow:hover{
+    text-decoration:underline ;
+    cursor: pointer;
+    color: #fff;
+}
+.clumWidth{
+    width:80px !important;
+}
+
+.my-ships-content tbody .my-ships-unfollow span:active{
+    color: #ff6500;
+    text-decoration:underline ;
+}
+
+.my-ships-close,.port-details-close i,.port-details-footer label a span:active{
+    color: #ff6500;
+}
+
+.my-ships-close i:active{
+    color: #ff6500;
+}
+
+
+.my-ships-content-hide{
+    vertical-align: middle;
+    text-align: center;
+    font-size: 18px;
+    color: #e3e3e3;
+    line-height: 70px;
+}
+
+.collect-ship{
+    width: 30px;
+    height: 25px;
+    background: url("../../../static/images/ship/shoucang.png") no-repeat;
+    background-position: -30px 0;
+}
+/*港口详情*/
+.port-details-wrap{
+    position: absolute;
+    left:10%;
+    top:15%;
+    z-index: 1000;
+    min-width: 320px;
+    border-radius: 2px;
+    box-shadow: 10px 20px 20px 0 rgba(0,0,0,0.50);
+
+}
+.port-details-img-wrap{
+    text-align: center;
+}
+.port-details-img-wrap img{
+    max-height: 100%;
+    max-width: 100%;
+}
+.port-details-video-wrap{
+    width: 320px;
+    height: 150px;
+}
+.port-details-video-wrap video{
+    max-width: 100%;
+    max-height:100%;
+}
+.port-details-header{
+    font-size: 14px;
+    padding: 10px;
+}
+
+.port-details-close{
+    position: absolute;
+    top: 5px;
+    right:8px;
+}
+.port-details-close i{
+    font-weight: 600;
+}
+.port-details-content{
+    padding: 10px;
+    position: relative;
+}
+.port-details-content i{
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #FFFFFF;
+    display: inline-block;
+    text-align: center;
+}
+
+.port-details-footer{
+    width: 100%;
+    white-space: nowrap;
+    border-top: 1px solid #d2d2d2;
+    padding-top: 10px;
+    user-select: none;
+}
+.port-details-footer label{
+    display: inline-block;
+    padding: 0;
+}
+.port-details-footer label a{
+    display: inline-block;
+    line-height: 18px;
+    width: 100%;
+}
+.port-details-footer label a span{
+    color: #0a45fa;
+}
+.port-details-circle{
+    position: absolute;
+    left: 245px;
+    top: 10px;
+    z-index: 500;
+    font-size: 16px;
+    width: 50px;
+    height: 50px;
+    background-color: #2C98F2;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 2px 5px 20px 0 rgba(0,0,0,0.50);
+    user-select: none;
+
+}
+.port-details-circle:active {
+    color: #ff6500;
+    box-shadow: 0px 0px 0px 0 rgba(0,0,0,0.50);
+}
+
+/*港口详情*/
+.port-details-info-header{
+    font-size: 14px;
+}
+.port-details-info{
+    position: absolute;
+    top: 15%;
+    left: 32%;
+    min-width: 50%;
+    width: 50%;
+    height: 75%;
+    border-radius: 2px;
+    box-shadow: 10px 20px 20px 0 rgba(0,0,0,0.50);
+    background-color: #fff;
+    z-index: 1000;
+    padding: 10px 10px 0 10px;
+}
+.port-details-info-content{
+    margin-top: 5px;
+    height: 86%;
+    overflow-y: auto;
+}
+.port-details-info-content::-webkit-scrollbar{width: 7px;height: 7px;background-color: #d3d3d0;}
+.port-details-info-content::-webkit-scrollbar-thumb{background-color: #3794EF;}
+.port-details-info-header h2{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #2C98F2;
+}
+/*港口排队*/
+.port-queuing-wrap{
+    width: 74%;
+    min-width: 330px;
+    min-height:135px;
+    opacity: 0.85;
+    background-color: #212121;
+    box-shadow: 10px 20px 20px 0 rgba(0,0,0,0.50);
+    border-radius: 3px;
+    color: #FFFFFF;
+    z-index: 1000;
+    position: absolute;
+    top: 50%;
+    left:10%;
+    padding: 0px 10px 5px 5px;
+    box-sizing: border-box;
+}
+
+.port-queuing-header{
+    font-size: 14px;
+    padding: 10px;
+}
+.port-queuing-close{
+    position: absolute;
+    top: 5px;
+    right:8px;
+}
+.port-queuing-close i:active{
+    color: #ff6500;
+}
+.port-queuing-center tbody tr:hover{
+    background-color: #3794EF;
+}
+.port-queuing-center {padding: 5px 10px 5px 5px;max-height: 190px;overflow-y: auto;}
+.port-queuing-center::-webkit-scrollbar{width: 7px;height: 7px;background-color: #40403D;}
+.port-queuing-center::-webkit-scrollbar-thumb{background-color: #3794EF;}
+.port-queuing-center table{width: 100%;}
+.port-queuing-center td,.port-queuing-center th{border: 1px solid #5C5C5C;text-align: center;line-height: 30px;min-width: 200px;width: 15%;}
+
+/*控制面板*/
+.ctrl-wrap{
+    box-sizing: border-box;
+    min-width: 400px;
+    min-height:250px;
+    opacity: 0.85;
+    box-shadow: 10px 20px 20px 0 rgba(0,0,0,0.50);
+    border-radius: 3px;color: #FFFFFF;
+    z-index: 1000;
+    position: absolute;
+    left: 25%;
+    top:12%;
+    background-color: #212121;
+}
+
+.ctrl-header{
+    font-size: 14px;
+    padding: 10px;
+}
+.ctrl-close{
+    position: absolute;
+    top: 5px;
+    right:8px;
+}
+.ctrl-close i:active{
+    color: #ff6500;
+}
+.ctrl-center{
+    font-size: 14px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.ctrl-helght{
+    height: 70px;
+    line-height: 70px;
+    padding: 10px 10px 10px 30px;
+}
+.ctrl-span,.ctrl-ul{
+    float: left;
+    height: 100%;
+}
+.ctrl-ul li{
+    float: left;
+    height: 100%;
+    width: 70px;
+    white-space: nowrap;
+}
+.ctrl-ul li div{
+    width: 100%;
+    height: 50%;
+}
+.ctrl-ul li i {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 35px;
+    font-size: 20px;
+}
+.ctrl-ul li .ctrl-kongzai {
+    line-height: 35px;
+    text-align: center;
+}
+
+.ctrl-type-select,.ctrl-type-radiu{
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.sr-nav-item{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.setting-ship-map{
+    display: inline-block;
+    width: 50px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5px;
+
+}
+
+.setting-ship-map-i{
+    font-size: 20px;
+    line-height: 35px;
+    color: #fff;
+}
+.ship-map-setting{
+    background-color: #448534;
+}
+.ship-map-exit{
+    background-color: #C83C3C;
+}
+.ship-map-setting:active{
+    background-color: #466E3C;
+}
+.ship-map-exit:active{
+    background-color: #AF4646;
+}
+/*<div class="table-wrap">
+    <div class="table-head">序号</div>
+    <div class="table-body">
+        <div>1</div>
+    </div>
+</div>*/
+.table-wrap{
+    width: 5%;
+    position: absolute;
+    top: 50px;
+    left: 11px;
+    margin-left: 1px;
+    padding-right: 1px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.scrollTableChild{
+    width: 100%;
+    position: absolute;
+
+}
+.table-head{
+    width: 100%;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    background-color: #3c382c;
+    z-index: 1050;
+    border-left: 1px solid #464545;
+    border-bottom: 1px solid #464545;
+    box-sizing: border-box;
+    border-right: 1px solid #464545 ;
+}
+.table-body{
+    box-sizing: border-box;
+}
+.table-body div{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 32px;
+    background-color: #212121;
+    z-index: 1050;
+    border-left: 1px solid #464545;
+    border-bottom: 1px solid #464545;
+    border-right: 1px solid #464545 ;
+    box-sizing: border-box;
+}

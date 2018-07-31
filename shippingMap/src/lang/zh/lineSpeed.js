@@ -1,0 +1,31 @@
+export default {
+  title: '航速航线',
+  shipType: '船型',
+  vlcc: 'VLCC',
+  suezmax: 'Suezmax',
+  aframax: 'Aframax',
+  distance: '距离',
+  mile: '海里',
+  days: '天数',
+  day: '天',
+  speed: '速度',
+  section: '节',
+  calculation: '计算',
+  moveUp: '上移',
+  moveDown: '下移',
+  insertRow: '插入行',
+  deleteRow: '删除行',
+  message: '计算结果仅供参考',
+  empty: '清空',
+  table: {
+    No: '序号',
+    port: '港口',
+    timeZone: '时区',
+    distance: '距离(NM)',
+    Speed: '航速(节)',
+    sailingDays: '航行天数',
+    residenceTime: '港口停留时间(h)',
+    PortTimeIsExpected: '预计到岗时间',
+    EstimatedTime: '预计离港时间'
+  }
+}

@@ -1,0 +1,308 @@
+[33mcommit 7ac8fd5adb80b44ad3ecaed120d8d398df038c1c[m[33m ([m[1;36mHEAD -> [m[1;32mship-0630[m[33m, [m[1;31morigin/ship-0630[m[33m)[m
+Author: wangdi <1109534822@qq.com>
+Date:   Mon Jul 9 11:21:24 2018 +0800
+
+    ''
+
+[33mcommit 7c5dd627c45979a55d4b909fab7ef7bd922c09be[m
+Author: wangdi <1109534822@qq.com>
+Date:   Thu Jul 5 20:26:17 2018 +0800
+
+    ''
+
+[33mcommit 69f7a1a197d017700897c316269d391ab953a305[m
+Author: wangdi <1109534822@qq.com>
+Date:   Thu Jul 5 19:53:01 2018 +0800
+
+    ''
+
+[33mcommit ae27c9510afeed7108e34a74e656d02e5e541798[m
+Author: wangdi <1109534822@qq.com>
+Date:   Thu Jul 5 16:46:27 2018 +0800
+
+    ''
+
+[33mcommit 4a936f681856d68d0b4f5b618342cbaacf3d63fb[m
+Author: wangdi <1109534822@qq.com>
+Date:   Thu Jul 5 14:10:19 2018 +0800
+
+    ''
+
+[33mcommit d1b225564b76c04eaf8c4645c58eb81c10da3e11[m
+Author: wangdi <1109534822@qq.com>
+Date:   Thu Jul 5 14:07:33 2018 +0800
+
+    ''
+
+[33mcommit 3ce62771f9102344681d394224637e15a65e03b7[m
+Author: wangdi <1109534822@qq.com>
+Date:   Wed Jul 4 17:59:15 2018 +0800
+
+    ''
+
+[33mcommit 5c8cbd2d2c2d2368873be1f3c00fd60f51557080[m
+Author: wangdi <1109534822@qq.com>
+Date:   Wed Jul 4 11:15:21 2018 +0800
+
+    '7/4'
+
+[33mcommit 02d7bbd83b01c5483b43bba9ac1d0df8ee33bcbf[m[33m ([m[1;31morigin/ship-0730[m[33m)[m
+Author: wangdi <1109534822@qq.com>
+Date:   Wed Jun 27 19:40:36 2018 +0800
+
+    ''
+
+[33mcommit d7b075f9e53df8a85e963073c2dafa5f1dcff65b[m
+Author: wangdi <1109534822@qq.com>
+Date:   Fri Jun 22 20:26:56 2018 +0800
+
+    '完成我的船队功能'
+
+[33mcommit e029a461680b877379de3bfb052fa6f8836c9e9d[m
+Merge: 3c302d3 bf2936f
+Author: wangdi <1109534822@qq.com>
+Date:   Thu Jun 21 09:35:22 2018 +0800
+
+    Merge branch 'ship-0630' of http://120.26.135.151:10080/SCb2b/ship into ship-0630
+
+[33mcommit 3c302d3d3d524ab56299820e4a287087d7230ed3[m
+Author: wangdi <1109534822@qq.com>
+Date:   Thu Jun 21 09:35:17 2018 +0800
+
+    ''
+
+[33mcommit bf2936fd188aa8c03501a8a045d5f827f0c2ed6c[m
+Merge: b518d27 e074925
+Author: gaoyuanyang <yuanyang.gao@pactera.com>
+Date:   Wed Jun 20 14:09:32 2018 +0800
+
+    Merge branch 'ship-0530' into ship-0630
+
+[33mcommit e07492546f73ae343cb1f59ea0d5fec1439153b0[m[33m ([m[1;31morigin/ship-0530[m[33m)[m
+Author: gaoyuanyang <yuanyang.gao@pactera.com>
+Date:   Wed Jun 20 14:08:52 2018 +0800
+
+    还原
+
+[33mcommit fdd4e03b5dd8fb8d50cad19e988f6b4d34f1e713[m
+Author: gaoyuanyang <yuanyang.gao@pactera.com>
+Date:   Wed Jun 20 14:06:04 2018 +0800
+
+    船盘更多列表优化查询
+
+[33mcommit b518d277858ff3b824804195de8aa9f22d8788bf[m
+Merge: d490bde 47bb553
+Author: gaoyuanyang <yuanyang.gao@pactera.com>
+Date:   Tue Jun 19 11:07:12 2018 +0800
+
+    Merge branch 'ship-0530' into ship-0630
+
+[33mcommit 47bb553ee4c353c536e037d12b641969ba2b47fe[m
+Author: gaoyuanyang <gaoyuanyang@xxx.com>
+Date:   Tue Jun 19 10:38:32 2018 +0800
+
+    修改首页头部位置和修改原油大头==大厅跳转链接
+
+[33mcommit d490bde3b6e438cb588c74e27edbc204f91b9a55[m
+Merge: 11a5a87 ccc4537
+Author: wangdi <1109534822@qq.com>
+Date:   Fri Jun 15 17:06:11 2018 +0800
+
+    Merge branch 'ship-0530' into ship-0630
+
+[33mcommit ccc4537aeb4dcdbc9bb13e1a0deeaecc5880abbe[m[33m ([m[1;32mship-0530[m[33m)[m
+Merge: c6a0401 46d8279
+Author: wangdi <1109534822@qq.com>
+Date:   Fri Jun 15 17:05:30 2018 +0800
+
+    Merge branch 'ship-0530' of http://120.26.135.151:10080/SCb2b/ship into ship-0530
+
+[33mcommit c6a040123c417fd8dc6c82e5aa7e6630cb337cc0[m
+Author: wangdi <1109534822@qq.com>
+Date:   Fri Jun 15 17:05:24 2018 +0800
+
+    ''
+
+[33mcommit 11a5a878ebb3041d8cc5fb6b0ec53e8dfaac2f65[m
+Merge: dd49ae9 0f1c644
+Author: wangdi <1109534822@qq.com>
+Date:   Fri Jun 15 17:03:24 2018 +0800
+
+    Merge branch 'ship-0630' of http://120.26.135.151:10080/SCb2b/ship into ship-0630
+
+[33mcommit dd49ae92eba4be59b2141ac0126b5fb968b142d9[m
+Author: wangdi <1109534822@qq.com>
+Date:   Fri Jun 15 17:03:20 2018 +0800
+
+    ''
+
+[33mcommit 0f1c64478cf1a6c0110324718fa58a28da0c715b[m
+Merge: 2ae5ffb 46d8279
+Author: gaoyuanyang <yuanyang.gao@pactera.com>
+Date:   Thu Jun 14 11:32:37 2018 +0800
+
+    Merge branch 'ship-0530' into ship-0630
+
+[33mcommit 46d8279532f2ed5ab25f37255333ba0e53e9785a[m
+Author: gaoyuanyang <gaoyuanyang@xxx.com>
+Date:   Thu Jun 14 11:01:23 2018 +0800
+
+    首页修改租约信息，漏点改为露点
+
+[33mcommit 2ae5ffb35ac49cf296f244ab3fe255d63e6fc3a5[m
+Author: wangdi <1109534822@qq.com>
+Date:   Thu Jun 14 10:36:59 2018 +0800
+
+    ''
+
+[33mcommit 5ff1a9d8fdf224a8e272ad8449c4e35a76c3ca9b[m
+Author: wangdi <1109534822@qq.com>
+Date:   Wed Jun 13 11:43:38 2018 +0800
+
+    ''
+
+[33mcommit 9149005e932c0623a9ee63446c9dfa16878ab5a3[m
+Author: wangdi <1109534822@qq.com>
+Date:   Tue Jun 12 18:33:11 2018 +0800
+
+    ''
+
+[33mcommit 9e5e91a8aa0015e5e3ff19b74fb73e0f6f328512[m
+Merge: 653f739 9bec52b
+Author: gaoyuanyang <gaoyuanyang@xxx.com>
+Date:   Tue Jun 12 18:18:09 2018 +0800
+
+    Merge branch 'ship-0530' into ship-0630
+
+[33mcommit 9bec52b41bd799cde4403e430db7f36307ac739d[m
+Author: wangdi <1109534822@qq.com>
+Date:   Mon Jun 11 17:14:44 2018 +0800
+
+    ''
+
+[33mcommit 2dacd72878d09ba4c184c701fc6108e0906fe9ed[m
+Author: wangdi <1109534822@qq.com>
+Date:   Mon Jun 11 17:04:58 2018 +0800
+
+    ''
+
+[33mcommit 1c4e19e599eae63d704e66dbc69add2bf23778a1[m
+Author: wangdi <1109534822@qq.com>
+Date:   Mon Jun 11 17:02:35 2018 +0800
+
+    ''
+
+[33mcommit c0b7dc2bd9a1f981a8989bdf9629e24a7597421c[m
+Author: wangdi <1109534822@qq.com>
+Date:   Mon Jun 11 16:48:02 2018 +0800
+
+    ''
+
+[33mcommit e9b16bce0afeec099d8d1352da363ae6df6e3312[m
+Author: wangdi <1109534822@qq.com>
+Date:   Mon Jun 11 16:35:39 2018 +0800
+
+    ''
+
+[33mcommit 5689b41267fe141456014c05a79ba6adcfb52e07[m
+Author: wangdi <1109534822@qq.com>
+Date:   Mon Jun 11 16:32:32 2018 +0800
+
+    ''
+
+[33mcommit 90c9d22fc748b6aeccf10cd20bccd8d106606964[m
+Author: unknown <1428023604@qq.com>
+Date:   Sat Jun 9 18:23:04 2018 +0800
+
+    ss
+
+[33mcommit d78c3dc9b9f2a2b2d349f5e0d3e1e9566ef6969f[m
+Merge: c1b1f04 653f739
+Author: unknown <1428023604@qq.com>
+Date:   Sat Jun 9 17:58:44 2018 +0800
+
+    冲突
+
+[33mcommit c1b1f042610b321f46757c93b17e4c2bc66bb523[m
+Author: unknown <1428023604@qq.com>
+Date:   Sat Jun 9 17:52:30 2018 +0800
+
+    ssss
+
+[33mcommit 653f739d6b2a77e4416d6c7d44ce2ec0b32a4422[m
+Author: gaoyuanyang <gaoyuanyang@xxx.com>
+Date:   Fri Jun 8 20:17:28 2018 +0800
+
+    中文版海况图修改
+
+[33mcommit f4e734236327fdedbdc7dc266dfc637994fc8ddc[m
+Author: unknown <1428023604@qq.com>
+Date:   Fri Jun 8 18:11:10 2018 +0800
+
+    ssss
+
+[33mcommit 11325a9a42c690f6455caf26b8a892b36de8221f[m
+Author: wangdi <1109534822@qq.com>
+Date:   Fri Jun 8 10:18:53 2018 +0800
+
+    ''
+
+[33mcommit 69b149fffd69b1a80ffeb01c025b01c9432c8869[m
+Merge: c683800 aa8a7db
+Author: wangdi <1109534822@qq.com>
+Date:   Fri Jun 8 10:10:13 2018 +0800
+
+    Merge branch 'ship-0530' of http://120.26.135.151:10080/SCb2b/ship into ship-0530
+
+[33mcommit c683800312e60eb3d0c2d227c3d8f7c856059299[m
+Author: wangdi <1109534822@qq.com>
+Date:   Fri Jun 8 10:10:02 2018 +0800
+
+    ''
+
+[33mcommit aa8a7db667693b91cb4946cb46658c93c7845526[m
+Author: gaoyuanyang <gaoyuanyang@xxx.com>
+Date:   Fri Jun 8 09:34:59 2018 +0800
+
+    图片修改
+
+[33mcommit cf17f71d467934d43e2a8828512b09b3e968cd05[m
+Author: wangdi <1109534822@qq.com>
+Date:   Thu Jun 7 21:18:13 2018 +0800
+
+    ''
+
+[33mcommit f1c511b771a0b858a32756e52c92f40e1c48d04f[m
+Author: wangdi <1109534822@qq.com>
+Date:   Thu Jun 7 21:03:57 2018 +0800
+
+    ''
+
+[33mcommit b31fb998347b7fdf75dd5a0598f50c3df359cb6e[m
+Author: wangdi <1109534822@qq.com>
+Date:   Thu Jun 7 20:47:18 2018 +0800
+
+    ''
+
+[33mcommit 12a99e99d95eb6fda968a425054d72bed0c092e8[m
+Author: wangdi <1109534822@qq.com>
+Date:   Thu Jun 7 20:01:11 2018 +0800
+
+    ''
+
+[33mcommit 1e769d3b68638a1afc150c508bc6ed6c06c089e3[m
+Merge: ed77e22 8d0ac26
+Author: wangdi <1109534822@qq.com>
+Date:   Thu Jun 7 19:20:59 2018 +0800
+
+    ''
+
+[33mcommit ed77e22733333e14adde1f72f4c8d3126f9e54c9[m
+Author: wangdi <1109534822@qq.com>
+Date:   Thu Jun 7 19:19:23 2018 +0800
+
+    ''
+
+[33mcommit 8d0ac2629b961e5521cec3cc2e84aed902da4fdb[m
+Author: unknown <1428023604@qq.com>
+Date:   Thu Jun 7 19:10:03 2018 +0

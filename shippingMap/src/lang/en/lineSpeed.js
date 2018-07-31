@@ -1,0 +1,31 @@
+export default {
+  title: 'Route&Speed',
+  shipType: 'Vessel Type',
+  vlcc: 'VLCC',
+  suezmax: 'Suezmax',
+  aframax: 'Aframax',
+  distance: 'Distance',
+  mile: 'nm',
+  days: 'Days',
+  day: 'days',
+  speed: 'Speed',
+  section: 'kts',
+  calculation: 'Get Result',
+  moveUp: 'Move Up',
+  moveDown: 'Move Down',
+  insertRow: 'Insert Row',
+  deleteRow: 'Remove Row',
+  message: 'The calculation results are for reference only.',
+  empty: 'Clear',
+  table: {
+    No: 'No.',
+    port: 'Port',
+    timeZone: 'Time Zone',
+    distance: 'Distance(NM)',
+    Speed: 'Speed(节)',
+    sailingDays: 'Voyage Days',
+    residenceTime: 'Hours in Port(h)',
+    PortTimeIsExpected: 'ETA',
+    EstimatedTime: 'ETD'
+  }
+}

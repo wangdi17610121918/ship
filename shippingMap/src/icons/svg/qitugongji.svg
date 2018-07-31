@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>qitugongji</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="7/19" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="qitugongji">
+            <circle id="Oval-10" cx="8" cy="8" r="8"></circle>
+            <g id="Group-12" transform="translate(3.200000, 2.400000)" stroke="#FFFFFF">
+                <path d="M4.8,8.8 C3.0326888,8.8 1.6,7.3673112 1.6,5.6 C1.6,3.8326888 3.0326888,2.4 4.8,2.4 C6.5673112,2.4 8,3.8326888 8,5.6 C8,7.3673112 6.5673112,8.8 4.8,8.8 Z M4.75214844,7.59785156 C5.85671794,7.59785156 6.75214844,6.70242106 6.75214844,5.59785156 C6.75214844,4.49328206 5.85671794,3.59785156 4.75214844,3.59785156 C3.64757894,3.59785156 2.75214844,4.49328206 2.75214844,5.59785156 C2.75214844,6.70242106 3.64757894,7.59785156 4.75214844,7.59785156 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                <path d="M4.83261719,0.719238281 L4.83261719,2.31923828" id="Line-10" stroke-linecap="square"></path>
+                <polyline id="Line-10" stroke-linecap="square" points="4.73925781 8.83193359 4.73925781 9.63193359 4.73925781 10.4319336"></polyline>
+                <path d="M8,5.2 L9.6,5.2" id="Line-11" stroke-linecap="square"></path>
+                <path d="M0,5.2 L1.6,5.2" id="Line-11" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

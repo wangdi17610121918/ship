@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>xiechi</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="7/19" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="xiechi">
+            <g id="jiechi">
+                <circle id="Oval-5" cx="8" cy="8" r="8"></circle>
+            </g>
+            <path d="M6.22521785,9.82266504 L6.22772733,9.81986858 L5.44099588,8.91709027 L11.6835937,3.47695313 C12.0546224,6.15673553 11.8110352,8.05042042 10.952832,9.15800781 C10.0946289,10.2655952 9.12057292,11.152496 8.03066406,11.8187101 L6.31543743,9.91606638 L6.22521785,9.82266504 Z M5.74148656,10.1971687 L4.11994515,11.8187101 C3.85562291,11.9280757 3.61794525,11.876512 3.40691218,11.6640189 C3.19587911,11.4515259 3.14627306,11.1699825 3.25809405,10.8193889 L4.95677661,9.33906511 L5.74148656,10.1971687 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

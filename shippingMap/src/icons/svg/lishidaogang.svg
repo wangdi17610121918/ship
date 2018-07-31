@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>lishidaogang</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="7/19" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="lishidaogang">
+            <circle id="Oval-27-Copy-4" fill="#000000" cx="8" cy="8" r="8"></circle>
+            <g id="Group-16" transform="translate(3.000000, 4.000000)" fill="#FFFFFF">
+                <path d="M7.90039062,3.72137755 L7.90039062,2.68849793 C7.90039062,2.46758403 7.72130452,2.28849792 7.50039062,2.28849792 C7.27947672,2.28849792 7.10039061,2.46758403 7.10039061,2.68849793 L7.10039061,4.51904297 L7.89932251,4.51904297 L7.89932251,3.72137755 L7.90039062,3.72137755 Z M7.5,7 C6.11928813,7 5,5.88071187 5,4.5 C5,3.11928813 6.11928813,2 7.5,2 C8.88071187,2 10,3.11928813 10,4.5 C10,5.88071187 8.88071187,7 7.5,7 Z M7.90039062,3.72137755 L7.90039062,4.51904297 L7.89932251,4.51904297 L7.89932251,4.52137756 L8.50554809,4.52137756 C8.72646199,4.52137756 8.9055481,4.34229146 8.9055481,4.12137756 C8.9055481,3.90046365 8.72646199,3.72137755 8.50554809,3.72137755 L7.90039062,3.72137755 Z" id="shijian-copy"></path>
+                <rect id="Rectangle-32" x="0" y="0" width="10" height="1" rx="0.5"></rect>
+                <rect id="Rectangle-32" x="0" y="2" width="5" height="1" rx="0.5"></rect>
+                <rect id="Rectangle-32" x="0" y="4" width="4" height="1" rx="0.5"></rect>
+                <rect id="Rectangle-32" x="0" y="6" width="4" height="1" rx="0.5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

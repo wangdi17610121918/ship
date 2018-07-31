@@ -1,0 +1,18 @@
+dev: {  
+        env: require('./dev.env'),  
+        port: 8080,  
+        autoOpenBrowser: false,  
+        assetsSubDirectory: 'static',  
+        assetsPublicPath: '/',  
+        proxyTable: {  
+            '/gp': {  
+                target: 'http://we7.qw1000.cn/',  
+                changeOrigin: true,  
+                pathRewrite: {  
+                    '^/gp': '/'  
+                }  
+            }  
+  
+        }  
+  
+    }  

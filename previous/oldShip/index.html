@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <!--application/json-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+    <link type="text/css" rel="stylesheet" href="../static/css/flag-icon.css">
+    <link type="text/css" rel="stylesheet" href="../static/css/style.css">
+    <title></title>
+    <script>
+        function getCookie(name) {
+            var strCookie = document.cookie.replace(/\s/,"");
+            var arr = strCookie.split(';');
+            for (var i = 0; i < arr.length; i++) {
+                var t = arr[i].split("=");
+                if(t[0].trim() == name) {
+                    return t[1];
+                }
+            };
+            return null;
+        }
+        var urlStr = window.location.href;
+        var httpUrl = "";
+        if(urlStr.indexOf('ship9.mycrudeoil')!=-1 || urlStr.indexOf('info9.mycrudeoil')!=-1){   // uat 
+        	httpUrl = "https://sinochem-b2b-uat.oss-cn-beijing.aliyuncs.com";
+        } else if(urlStr.indexOf('info.mycrudeoil')!=-1 || urlStr.indexOf('ship.mycrudeoil')!=-1){    // 生产
+        	httpUrl = "https://sinochem-b2b-pro.oss-cn-beijing.aliyuncs.com";
+        } else { //测试环境
+        	httpUrl = "http://sinochem-b2b-dev.oss-cn-beijing.aliyuncs.com";
+        }
+        if(getCookie("_l_")){
+            var lang = getCookie("_l_").substr(0,2)
+            if(lang == 'en'){
+                document.write("<script type='text/javascript' src='../static/configIP.js?"+Math.random().toString(36).substr(2)+"'><\/script><script type='text/javascript' src='"+httpUrl+"/transport/myGoogleMapEn.js' async defer><\/script>")
+            }else{
+                document.write("<script type='text/javascript' src='../static/configIP.js?"+Math.random().toString(36).substr(2)+"'><\/script><script type='text/javascript' src='"+httpUrl+"/transport/myGoogleMapZh.js' async defer><\/script>")
+            }
+        }else{
+            document.write("<script type='text/javascript' src='../static/configIP.js?"+Math.random().toString(36).substr(2)+"'><\/script><script type='text/javascript' src='"+httpUrl+"/transport/myGoogleMapZh.js' async defer><\/script>")
+        }
+        //  document.write("<script type='text/javascript' src='../static/configIP.js?"+Math.random().toString(36).substr(2)+"'><\/script>")
+    </script>
+
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?469b0210be7581c5a68ba34d43e1b3bc";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+</head>
+
+<body>
+<div id="app"></div>
+<style>#cnzz_stat_icon_1273108402{display:none}</style><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1273108402'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1273108402%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+</body>
+
+</html>

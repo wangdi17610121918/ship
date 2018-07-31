@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+html{ font-size:20px;}
+img{ border:none; vertical-align:middle;}
+li{ list-style-type:none;}
+*{ padding:0; margin:0;}
+body{ width:100%; height:100%; background:url(../telimg/oil_bg.jpg) repeat;}
+.clearfix:after{ content: "."; display: block; height: 0; clear: both; font-size:0; }
+.clearfix{ *zoom:1;}
+a{ text-decoration:none;}
+.left{ float:left;}
+.right{ float:right;}
+
+/*世界石油分布*/
+.oil-box{ width:16rem;}
+.oil-banner img{ width:16rem; vertical-align:middle;}
+.oil-text{ margin-top:.5rem; background-color:#fff; padding:.65rem;}
+.oil-text p{ font-size:.6rem; color:#444444; text-indent:1.2rem; text-align:justify; line-height:.95rem; margin-bottom:.5rem;}
+.oil-text p:last-child{ margin-bottom:0;}
+.oil-text h1{ color:#444444; font-size:.7rem; text-align:center; line-height:1rem;}
+.oil-table{ border-collapse:collapse; padding-top:.25rem;}
+.oil-table th, .oil-table td{ line-height:2.2rem; padding:0 .1rem;}
+.oil-table th{ font-size:.6rem; color:#949494; text-align:right;}
+.oil-table th:first-child, .oil-table th:nth-child(2){ text-align:left;}
+.oil-table td{ font-size:.6rem; color:#444444; text-align:right;}
+.oil-table td:first-child, .oil-table td:nth-child(2){ text-align:left;}
+.oil-ratio-graph{ margin-top:.6rem; border:1px solid #F2F2F2;}
+.oil-ratio-graph img{ width:100%;}
+
+/*风力海浪级别表*/
+.oil-wind{ background-color:#fff; padding:.65rem; margin-bottom:.5rem;}
+.oil-wind:last-child{ margin-bottom:0;}
+.oil-wind h1{ font-size:.8rem; line-height:1.1rem; text-align:center; color:#444;}
+.oil-wind_tit{ position:relative; height:2.3rem; text-align:center; z-index:1;}
+.oil-wind_tit p{ position:absolute; width:100%; height:.05rem; left:0; top:1.15rem; background-color:#F2F2F2; z-index:-1;}
+.oil-wind_tit span{ color:#949494; font-size:.7rem; background-color:#fff; padding:0 .5rem; display:inline-block; padding-top:.65rem;}
+.oil-wind img{ width:100%;}
+.oil-wtable{ border-collapse:collapse; margin-top:.9rem;}
+.oil-wtable th, .oil-wtable td{ line-height:2.2rem; padding:0 .1rem;}
+.oil-wtable th{ font-size:.6rem; color:#949494; text-align:center;}
+.oil-wtable td{ font-size:.6rem; color:#444444; text-align:right;}
+.oil-wtable td:first-child{ text-align:left;}
+.oil-wtable td:nth-child(2), .oil-wtable td:nth-child(3){ text-align:center;}

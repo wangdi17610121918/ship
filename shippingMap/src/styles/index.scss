@@ -1,0 +1,299 @@
+@import './variables.scss';
+@import './mixin.scss';
+@import './transition.scss';
+@import './element-ui.scss';
+@import './sidebar.scss';
+@import './btn.scss';
+
+body {
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+
+label {
+  font-weight: 700;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#app{
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.no-padding {
+  padding: 0px !important;
+}
+
+.padding-content {
+  padding: 4px 0;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+div:focus{
+  outline: none;
+ }
+
+.fr {
+  float: right;
+}
+
+.fl {
+  float: left;
+}
+
+.pr-5 {
+  padding-right: 5px;
+}
+
+.pl-5 {
+  padding-left: 5px;
+}
+
+.block {
+  display: block;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.inlineBlock {
+  display: block;
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+code {
+  background: #eef1f6;
+  padding: 15px 16px;
+  margin-bottom: 20px;
+  display: block;
+  line-height: 36px;
+  font-size: 15px;
+  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  a {
+    color: #337ab7;
+    cursor: pointer;
+    &:hover {
+      color: rgb(32, 160, 255);
+    }
+  }
+}
+
+.warn-content{
+  background: rgba(66,185,131,.1);
+  border-radius: 2px;
+  padding: 16px;
+  padding: 1rem;
+  line-height: 1.6rem;
+  word-spacing: .05rem;
+  a{
+    color: #42b983;
+    font-weight: 600;
+  }
+}
+
+//main-container全局样式
+.app-container {
+  padding: 20px;
+}
+
+.components-container {
+  // margin: 30px 50px;
+  position: relative;
+}
+
+.pagination-container {
+  margin-top: 30px;
+}
+
+.text-center {
+  text-align: center
+}
+
+.sub-navbar {
+  height: 50px;
+  line-height: 50px;
+  position: relative;
+  width: 100%;
+  text-align: right;
+  padding-right: 20px;
+  transition: 600ms ease position;
+  background: linear-gradient(90deg, rgba(32, 182, 249, 1) 0%, rgba(32, 182, 249, 1) 0%, rgba(33, 120, 241, 1) 100%, rgba(33, 120, 241, 1) 100%);
+  .subtitle {
+    font-size: 20px;
+    color: #fff;
+  }
+  &.draft {
+    background: #d0d0d0;
+  }
+  &.deleted {
+    background: #d0d0d0;
+  }
+}
+
+.link-type,
+.link-type:focus {
+  color: #337ab7;
+  cursor: pointer;
+  &:hover {
+    color: rgb(32, 160, 255);
+  }
+}
+
+.filter-container {
+  padding-bottom: 10px;
+  .filter-item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 10px;
+  }
+}
+
+//refine vue-multiselect plugin
+.multiselect {
+  line-height: 16px;
+}
+
+.multiselect--active {
+  z-index: 1000 !important;
+}
+.mr-l-5{
+  margin-left: 5px;
+}
+.mr-l-10{
+  margin-left: 10px;
+}
+.mr-l-15{
+  margin-left: 15px;
+}
+.mr-l-20{
+  margin-left: 20px;
+}
+.mr-l-25{
+  margin-left: 25px;
+}
+.mr-l-30{
+  margin-left: 30px;
+}
+.mr-l-35{
+  margin-left: 35px;
+}
+.mr-l-40{
+  margin-left: 40px;
+}
+.mr-l-50{
+  margin-left: 50px;
+}
+.mr-l-55{
+  margin-left: 55px;
+}
+.mr-l-60{
+  margin-left: 60px;
+}
+.mr-r-5{
+  margin-right: 5px;
+}
+.mr-r-10{
+  margin-right: 10px;
+}
+.mr-r-15{
+  margin-right: 15px;
+}
+.mr-r-20{
+  margin-right: 20px;
+}
+.mr-r-25{
+  margin-right: 25px;
+}
+.mr-r-30{
+  margin-right: 30px;
+}
+.mr-r-35{
+  margin-right: 35px;
+}
+.mr-r-40{
+  margin-right: 40px;
+}
+.mr-r-50{
+  margin-right: 50px;
+}
+.mr-r-55{
+  margin-right: 55px;
+}
+.mr-r-60{
+  margin-right: 60px;
+}
+.lh25{
+  height: 25px;
+  line-height: 25px;
+  margin-top:5px;
+}
+.lh32{
+  height: 32px;
+  line-height: 32px;
+  margin-top:5px;
+}
+.font12{
+  font-size: 12px;
+}
+.font14{
+  font-size: 14px;
+}
+.font16{
+  font-size: 16px;
+}
+.font18{
+  font-size: 18px;
+}
+.font120{
+  font-size: 20px;
+}
+.font22{
+  font-size: 22px;
+}
+.maxIndex{
+  z-index: 1000;
+}
+.navCurrent{
+  background: #FFA900 !important;
+   font-size: 14px;
+}
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";

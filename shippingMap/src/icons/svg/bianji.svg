@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>bianji</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="7/19" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bianji" transform="translate(6.214826, 7.918694) rotate(-43.000000) translate(-6.214826, -7.918694) translate(-1.785174, 5.918694)" fill="#000000">
+            <path d="M3.82352941,1 L3.82352941,3 L15,3 L15,1 L3.82352941,1 Z M2.82352941,0 L16,0 L16,4 L2.82352941,4 L2.82352941,0 Z" id="Rectangle-2" fill-rule="nonzero"></path>
+            <polygon id="Triangle-2" points="1.38777878e-14 2 2.82352941 1.08912879e-13 2.82352941 4"></polygon>
+            <rect id="Rectangle-8" x="12.2352941" y="0" width="1" height="4"></rect>
+        </g>
+    </g>
+</svg>

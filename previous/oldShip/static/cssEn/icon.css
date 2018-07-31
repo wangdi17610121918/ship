@@ -1,0 +1,276 @@
+@font-face {
+  font-family: 'font-shey';
+  src:  url('../fonts/font-shey.eot?cy74s9');
+  src:  url('../fonts/font-shey.eot?cy74s9#iefix') format('embedded-opentype'),
+    url('../fonts/font-shey.ttf?cy74s9') format('truetype'),
+    url('../fonts/font-shey.woff?cy74s9') format('woff'),
+    url('../fonts/font-shey.svg?cy74s9#font-shey') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="fs-"], [class*=" fs-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'font-shey' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fs-star:before {
+  content: "\e900";
+}
+.fs-sort:before {
+  content: "\e901";
+}
+.fs-clock:before {
+  content: "\e902";
+}
+.fs-search:before {
+  content: "\e903";
+}
+.fs-menu:before {
+  content: "\e904";
+}
+.fs-user:before {
+  content: "\e905";
+}
+.fs-cog:before {
+  content: "\e906";
+}
+.fs-global:before {
+  content: "\e907";
+}
+.fs-log-out:before {
+  content: "\e908";
+}
+.fs-edit:before {
+  content: "\e909";
+}
+.fs-arrow-left:before {
+  content: "\e90a";
+}
+.fs-chevron-down:before {
+  content: "\e90b";
+}
+.fs-repeat:before {
+  content: "\e90c";
+}
+.fs-message-square:before {
+  content: "\e90d";
+}
+.fs-bell:before {
+  content: "\e90e";
+}
+.fs-circle:before {
+  content: "\e90f";
+}
+.fs-circle-select:before {
+  content: "\e910";
+}
+.fs-checkbox:before {
+  content: "\e911";
+}
+.fs-checkbox-check:before {
+  content: "\e912";
+}
+.fs-share:before {
+  content: "\e913";
+}
+.fs-delete:before {
+  content: "\e914";
+}
+.fs-edit2:before {
+  content: "\e915";
+}
+.fs-plus:before {
+  content: "\e916";
+}
+.fs-next:before {
+  content: "\e917";
+}
+.fs-previous:before {
+  content: "\e918";
+}
+.fs-drop-down:before {
+  content: "\e919";
+}
+.fs-drop-down2:before {
+  content: "\e91a";
+}
+.fs-close:before {
+  content: "\e91b";
+}
+.fs-transaction:before {
+  content: "\e91c";
+}
+.fs-order:before {
+  content: "\e91d";
+}
+.fs-trade-logistics:before {
+  content: "\e91e";
+}
+.fs-account-management:before {
+  content: "\e91f";
+}
+.fs-telephone:before {
+  content: "\e920";
+}
+.fs-speaker:before {
+  content: "\e921";
+}
+.fs-confidentiality:before {
+  content: "\e922";
+}
+.fs-phone:before {
+  content: "\e923";
+}
+.fs-mailbox:before {
+  content: "\e924";
+}
+.fs-increase:before {
+  content: "\e925";
+}
+.fs-refresh:before {
+  content: "\e926";
+}
+.fs-note:before {
+  content: "\e927";
+}
+.fs-table-edit:before {
+  content: "\e928";
+}
+.fs-table-details:before {
+  content: "\e929";
+}
+.fs-unbundled:before {
+  content: "\e92a";
+}
+.fs-freeze:before {
+  content: "\e92b";
+}
+.fs-thaw:before {
+  content: "\e92c";
+}
+.fs-invitation-code:before {
+  content: "\e92d";
+}
+.fs-department:before {
+  content: "\e92e";
+}
+.fs-assignment:before {
+  content: "\e92f";
+}
+.fs-side-retra:before {
+  content: "\e930";
+  color: #2d3e7c;
+}
+.fs-port:before {
+  content: "\e931";
+}
+.fs-speed-calcu:before {
+  content: "\e932";
+}
+.fs-historical-route:before {
+  content: "\e933";
+}
+.fs-weather-infor:before {
+  content: "\e934";
+}
+.fs-hangxian:before {
+  content: "\e950";
+}
+.fs-calendar:before {
+  content: "\e935";
+}
+.fs-broker:before {
+  content: "\e936";
+}
+.fs-generation:before {
+  content: "\e937";
+}
+.fs-owner .path1:before {
+  content: "\e938";
+  color: rgb(0, 0, 0);
+}
+.fs-owner .path2:before {
+  content: "\e939";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.fs-owner .path3:before {
+  content: "\e93a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.fs-owner .path4:before {
+  content: "\e93b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.fs-owner .path5:before {
+  content: "\e93c";
+  margin-left: -1em;
+  color: rgb(15, 15, 15);
+}
+.fs-goods:before {
+  content: "\e93d";
+}
+.fs-sublet:before {
+  content: "\e93e";
+}
+.fs-ships:before {
+  content: "\e93f";
+}
+.fs-his-route:before {
+  content: "\e940";
+}
+.fs-folder:before {
+  content: "\e941";
+}
+.fs-typhoon:before {
+  content: "\e942";
+}
+.fs-remove:before {
+  content: "\e943";
+}
+.fs-pre_doub:before {
+  content: "\e944";
+}
+.fs-next_doub:before {
+  content: "\e945";
+}
+.fs-question:before {
+  content: "\e946";
+}
+.fs-dengchuan:before {
+  content: "\e947";
+}
+.fs-gongji:before {
+  content: "\e948";
+}
+.fs-haidao:before {
+  content: "\e949";
+}
+.fs-haidaojunyan:before {
+  content: "\e94a";
+}
+.fs-jiaohuo:before {
+  content: "\e94b";
+}
+.fs-jiechi:before {
+  content: "\e94c";
+}
+.fs-junyan:before {
+  content: "\e94d";
+}
+.fs-keyi:before {
+  content: "\e94e";
+}
